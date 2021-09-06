@@ -1,0 +1,17 @@
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int pictures = 52;
+            int column = 3;
+
+            Console.WriteLine(pictures / column);
+            Console.WriteLine(pictures % column);
+        }
+    }
+}
